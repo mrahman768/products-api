@@ -1,0 +1,19 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="2VBv0DyKSK-KPbAusmSB">
+    <mxGraphModel dx="1414" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Qe6fwPqf64UhgJs22lDE-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;Product&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="440" x="200" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Qe6fwPqf64UhgJs22lDE-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;align=left;" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;- id : Long&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;- name : String&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;- price : double&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="440" x="200" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Qe6fwPqf64UhgJs22lDE-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;align=left;" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;+ Product()&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;+ Product( id : Long, name : String, price : double)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;+ getId() : Long&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;+ getName() : String&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;+ getPrice() : double&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="440" x="200" y="240" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
