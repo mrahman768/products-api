@@ -1,17 +1,41 @@
-<mxfile host="app.diagrams.net">
+<mxfile host="drawio-plugin" modified="2026-10-13T15:00:36.129Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="22.1.22" etag="YLyWTJdvhZltfU0n7Q57" type="embed">
   <diagram name="Page-1" id="2VBv0DyKSK-KPbAusmSB">
-    <mxGraphModel dx="1414" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1633" dy="1942" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Qe6fwPqf64UhgJs22lDE-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;Product&lt;/font&gt;" vertex="1">
-          <mxGeometry height="40" width="440" x="200" y="120" as="geometry" />
+        <mxCell id="Qe6fwPqf64UhgJs22lDE-3" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;Product&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="200" y="120" width="440" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Qe6fwPqf64UhgJs22lDE-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;align=left;" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;- id : Long&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;- name : String&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;- price : double&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="80" width="440" x="200" y="160" as="geometry" />
+        <mxCell id="Qe6fwPqf64UhgJs22lDE-6" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;- id : Long&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;- name : String&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;- price : double&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;align=left;" parent="1" vertex="1">
+          <mxGeometry x="200" y="160" width="440" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Qe6fwPqf64UhgJs22lDE-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;align=left;" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;+ Product()&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;+ Product( id : Long, name : String, price : double)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;+ getId() : Long&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;+ getName() : String&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;+ getPrice() : double&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="140" width="440" x="200" y="240" as="geometry" />
+        <mxCell id="Qe6fwPqf64UhgJs22lDE-7" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;+ Product()&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;+ Product( id : Long, name : String, price : double)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;+ getId() : Long&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;+ getName() : String&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;+ getPrice() : double&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;align=left;" parent="1" vertex="1">
+          <mxGeometry x="200" y="240" width="440" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="2" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;ProductService&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="200" y="-200" width="440" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="&lt;div style=&quot;font-size: 19px;&quot;&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;- products : List&amp;lt;Product&amp;gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 19px;&quot;&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;- nextId : Long&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;align=left;" vertex="1" parent="1">
+          <mxGeometry x="200" y="-160" width="440" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="4" target="Qe6fwPqf64UhgJs22lDE-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="&lt;div style=&quot;font-size: 19px;&quot;&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;+ getAllProducts() : List&amp;lt;Product&amp;gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 19px;&quot;&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;+ getProductById(id : Long) : Optional&amp;lt;Product&amp;gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 19px;&quot;&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;+ addProduct(product : Product) : Product&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 19px;&quot;&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;+ deleteProduct(id : Long) : void&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 19px;&quot;&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;+ findByName(name : String) : List&amp;lt;Product&amp;gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;align=left;" vertex="1" parent="1">
+          <mxGeometry x="200" y="-100" width="440" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;Product Controller&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="200" y="-494" width="440" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;- productService : ProductService&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;align=left;" vertex="1" parent="1">
+          <mxGeometry x="200" y="-454" width="440" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;dashed=1;" edge="1" parent="1" source="7" target="2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="&lt;div style=&quot;font-size: 19px;&quot;&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;+ getAllProducts() : List&amp;lt;Product&amp;gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 19px;&quot;&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;+ getProductById(id : Long) : Product&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 19px;&quot;&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;+ addProduct(product : Product) : Product&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 19px;&quot;&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;+ deleteProduct(id : Long) : void&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;align=left;" vertex="1" parent="1">
+          <mxGeometry x="200" y="-410" width="440" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
