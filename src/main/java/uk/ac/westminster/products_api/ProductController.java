@@ -22,7 +22,7 @@ public class ProductController {
         return productService.getProductById(id).orElse(null);
     }
     @PostMapping("/products")
-    public Product addProduct(@RequestBody Product product) {
+    public Product addProduct(@RequestBody DigitalProduct product) {
         return productService.addProduct(product);
     }
 
